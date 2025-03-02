@@ -198,8 +198,9 @@ className={`w-paragraph`}>
 data-ws-index="1"
 className={`w-menu-item`}>
 <Link
+href={"/about"}
 className={`w-link c89xe4o c13l6j6w cz0yq6k cn7yu1g c1tfmy6j cb74049 c15ylyjh cf7tkpb c1i86v51 c1p0o0wq c13p5qav c1hbr8vz csvviyu cjgog48 c13fnuow cpegf2e ccpcu5x cvrbao cfy7o5s c1fgwgmi c1m0iipv c1g8nvc5 cpa60xb c1cj80ae c7avrz0 c1a8au9j cndzxgn c1gvhmq2 c13u7339 c1wegi2a c165qy47 cq9g8kk c1f2xltx c1jugkq5`}>
-{"Standalone"}
+{"About"}
 </Link>
 </NavigationMenuItem>
 </NavigationMenuList>
