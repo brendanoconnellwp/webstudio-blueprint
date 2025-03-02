@@ -1,10 +1,10 @@
 {
   "build": {
-    "id": "3ca8652e-7027-4b6b-8965-c46425bc9c9e",
+    "id": "fe15540c-a2e0-4a90-8f2d-6798edb134ac",
     "projectId": "daf525a8-df70-4e27-87a4-85bcdfc60dac",
-    "version": 68,
-    "createdAt": "2025-03-02T04:28:25.581+00:00",
-    "updatedAt": "2025-03-02T04:28:25.581+00:00",
+    "version": 69,
+    "createdAt": "2025-03-02T04:55:33.286+00:00",
+    "updatedAt": "2025-03-02T04:55:33.286+00:00",
     "pages": {
       "meta": {},
       "homePage": {
@@ -21767,7 +21767,7 @@
           "children": [
             {
               "type": "text",
-              "value": "Lorem ipsum dolor sit amet"
+              "value": "YO Lorem ipsum dolor sit amet"
             }
           ]
         }

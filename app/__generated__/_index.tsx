@@ -346,7 +346,7 @@ className={`w-text`}>
 <Heading
 tag={"h1"}
 className={`w-heading ct1qyrv c1kigl97 c1t63v45 c100q1g9 c12cvy4e cmuga36 c15yuch0`}>
-{"Lorem ipsum dolor sit amet"}
+{"YO Lorem ipsum dolor sit amet"}
 </Heading>
 <Paragraph
 className={`w-paragraph ciws6gk cl4ieyv c1tu0ls4 c15yuch0`}>
