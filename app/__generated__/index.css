@@ -302,6 +302,14 @@
     border-left-width: 1px;
     outline-width: 1px
   }
+  time.w-time {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
   b.w-bold-text {
     font-weight: 700;
     box-sizing: border-box;
@@ -1775,6 +1783,12 @@
   }
   .c1hzkj2m {
     padding-top: var(--size-3, 1rem)
+  }
+  .c812a4g {
+    aspect-ratio: 1
+  }
+  .c9remts {
+    margin-top: auto
   }
 }
 @media all and (max-width: 767px) {

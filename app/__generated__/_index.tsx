@@ -6,7 +6,7 @@
       import type { FontAsset, ImageAsset } from "@webstudio-is/sdk";
       import { useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
       import { Body as Body, Link as Link } from "@webstudio-is/sdk-components-react-router";
-import { Fragment as Fragment_1, HtmlEmbed as HtmlEmbed, Image as Image, Box as Box, Slot as Slot, Button as Button, Text as Text, Heading as Heading, Paragraph as Paragraph, List as List, ListItem as ListItem } from "@webstudio-is/sdk-components-react";
+import { Fragment as Fragment_1, HtmlEmbed as HtmlEmbed, Image as Image, Box as Box, Slot as Slot, Button as Button, Text as Text, Heading as Heading, Paragraph as Paragraph, List as List, ListItem as ListItem, Time as Time } from "@webstudio-is/sdk-components-react";
 import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuItem as NavigationMenuItem, NavigationMenuTrigger as NavigationMenuTrigger, NavigationMenuContent as NavigationMenuContent, NavigationMenuViewport as NavigationMenuViewport, Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as DialogOverlay, DialogContent as DialogContent, DialogClose as DialogClose } from "@webstudio-is/sdk-components-react-radix";
 
 
@@ -347,7 +347,7 @@ className={`w-text`}>
 <Heading
 tag={"h1"}
 className={`w-heading ct1qyrv c1kigl97 c1t63v45 c100q1g9 c12cvy4e cmuga36 c15yuch0`}>
-{"YO Lorem ipsum dolor sit amet"}
+{"Webstudio Demo"}
 </Heading>
 <Paragraph
 className={`w-paragraph ciws6gk cl4ieyv c1tu0ls4 c15yuch0`}>
@@ -523,6 +523,64 @@ className={`w-paragraph`}>
 {"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
 </Paragraph>
 </Box>
+</Box>
+</Box>
+</Box>
+<Box
+tag={"section"}
+className={`w-box c7xrg0i c1lghw34`}>
+<Box
+className={`w-box c1lpmbvr c1rhajtw c12g22pm c1x38kgf c1udybau cdb7l7w c157lt0s c1h2j5hn c12t8dnv c1lia5n c1tjxjp9 c1adqny3`}>
+<Box
+className={`w-box c1udybau cdb7l7w cl8tvtt c1n704d c1m0iipv c1h2j5hn c1u1vn1i`}>
+<Heading
+tag={"h2"}
+className={`w-heading c1e63t0d c1kigl97 c1t63v45 c100q1g9 c89xe4o cmuga36 c15yuch0`}>
+{"Articles"}
+</Heading>
+<Paragraph
+className={`w-paragraph ciws6gk cl4ieyv c1tu0ls4 c15yuch0`}>
+{"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+</Paragraph>
+</Box>
+<Box
+className={`w-box c1fc00l c1n704d cl8tvtt cn9ofg9 c11az9g3 c1ciau3r cv7dw1t c1iutj8u`}>
+{undefined?.data?.products?.map?.((articleItem: any, index: number) =>
+<Fragment key={index}>
+<Box
+tag={"article"}
+className={`w-box`}>
+<Link
+href={`/blogs/${articleItem?.slug}`}
+className={`w-link c1udybau cdb7l7w c1h2j5hn cgf5tfr c1e7wbyz chgdru c17dk2go cf8ie7v cpsmix7 c1t2c8d7 c1i86v51 c89xe4o c17pjzch c178c260 c8n0zg7 c67do6v c1q0c9a6 civdyaj c2xr64q c1kdxer3 c1bxqqjg c1lamv12 cq9g8kk c1f2xltx`}>
+<Box
+className={`w-box c1udybau c1wmewxe c1g8nvc5 cdb7l7w c1y8hsq3 c16w7v2z`}>
+<Image
+src={articleItem?.images?.[0]}
+alt={articleItem?.imageAlt}
+width={700}
+height={500}
+className={`w-image cr8q1yd c1gr8wku c176pu3l cf0hq4b c12g22pm c812a4g`} />
+</Box>
+<Box
+className={`w-box c1udybau cdb7l7w c1wmewxe c1h2j5hn cgf5tfr c1e7wbyz`}>
+<Heading
+tag={"h3"}
+className={`w-heading c12kyk05 c1kigl97 c1t63v45 c100q1g9 c89xe4o`}>
+{articleItem?.title}
+</Heading>
+</Box>
+<Box
+className={`w-box c1udybau cdb7l7w cgf5tfr c1e7wbyz c1wmewxe c1h2j5hn c9remts`}>
+<Time
+datetime={articleItem?.datePublished}
+country={"US"}
+className={`w-time c1tu0ls4`} />
+</Box>
+</Link>
+</Box>
+</Fragment>
+)}
 </Box>
 </Box>
 </Box>
